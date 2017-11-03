@@ -1,0 +1,11 @@
+
+### Instuctions
+This folder is a collection of various tools.These tools include automatic installation and compile tools.
+All of these tools test passed based on Debian Linux.
+### Files Tree
+1.autoCV.sh
+Automatic install opencv on your linux system.
+2.autoComp.sh
+Automatic compile the project on your linux system.
+3.TestAutoCom.sh
+Automatic compile your own project based on Seeta face detected,you should not make the Cmakefile.txt.
