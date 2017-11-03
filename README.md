@@ -12,10 +12,14 @@
 * [SeetaFace Alignment](./FaceAlignment/README.md)
 * [SeetaFace Identification](./FaceIdentification/README.md)
 
+
 ### Modification description
+
 Original Project Address:
-https://github.com/seetaface/SeetaFaceEngine
+<a>https://github.com/seetaface/SeetaFaceEngine</a><br>
 Modified some files so that this project can be compiled by gcc.
 Original Project had some files that coded by VS,so you could not compile on Linux.
-And at the same time,I wrote a shell script that can automatic download and install OpenCV,because the FaceId.. module rely on OpenCV..
-If you can not compile the projiect,you could run the script that named "autoCompile.sh".
+And at the same time,I wrote a shell script that can automatic download and install OpenCV,because the FaceId.. module rely on OPENCV.
+If you can not compile the project,you could run the script that named autoIns.sh
+
+### end
