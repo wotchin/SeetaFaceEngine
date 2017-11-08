@@ -34,7 +34,7 @@
 #include <string>
 #include <math.h>
 #include "cfan.h"
-
+//fixed by wotchin
 namespace seeta {
   /** A constructor with an optional argument specifying path of the model file.
    *  If called with no argument, the model file is assumed to be stored in the
