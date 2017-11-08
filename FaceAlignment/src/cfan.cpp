@@ -33,6 +33,8 @@
 #include "cfan.h"
 #include <string.h>
 #include <algorithm>
+#include <math.h>
+//fixed by wotchin
 /** A constructor.
   *  Initialize basic parameters.
   */
@@ -456,5 +458,4 @@ bool CCFAN::ResizeImage(const unsigned char *src_im, int src_width, int src_heig
   }
   return true;
 }
-
 
