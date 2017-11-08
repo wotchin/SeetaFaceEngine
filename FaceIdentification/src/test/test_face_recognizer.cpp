@@ -66,6 +66,7 @@ using namespace std;
 #include <opencv/highgui.h>
 
 #include "face_identification.h"
+
 #include "common.h"
 
 #include "math.h"
@@ -79,9 +80,11 @@ using namespace std;
 #include <stdio.h>
 
 #include "ctime"
-
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/imgproc.hpp>
+//fixed by wotchin
 using namespace seeta;
-
+using namespace cv;
 #define TEST(major, minor) major##_##minor##_Tester()
 #define EXPECT_NE(a, b) if ((a) == (b)) std::cout << "ERROR: "
 #define EXPECT_EQ(a, b) if ((a) != (b)) std::cout << "ERROR: "
